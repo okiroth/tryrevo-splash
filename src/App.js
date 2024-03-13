@@ -15,7 +15,7 @@ function App() {
             <RevoLogo />
           </div>
           <div className="text-big lg:pb-1 pb-5">
-            EV Find your next <strong>EV</strong> with Revo
+            Find your next <strong>EV</strong> with Revo
           </div>
           <div className="hidden lg:flex text-small">
             <div className="icon-content flex flex-col text-center p-5">
