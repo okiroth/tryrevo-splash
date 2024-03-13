@@ -56,6 +56,9 @@ body {
 }
 
 @media screen and (max-width: 568px) {
+  .top-wrap {
+    background-size: cover;
+  }
   .text-big {
     font-size: 44px;
   }
