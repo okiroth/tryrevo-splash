@@ -39,7 +39,7 @@ body {
   /* Paragraph/P1 Med - 18 DM Sans */
   font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 130%; /* 23.4px */
 }
 
@@ -51,6 +51,7 @@ body {
   padding: 30px 35px;
   height: 130px;
   margin: 0 auto;
+  margin-bottom: 24px;
   border-radius: 50%;
 }
 
