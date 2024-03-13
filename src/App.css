@@ -8,7 +8,8 @@ body {
 }
 
 .top-wrap {
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
     url("./images/bg.jpeg");
 }
@@ -18,7 +19,7 @@ body {
   /* Headline/H2 - 64 Steinbeck */
   font-size: 64px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 110%; /* 70.4px */
   text-transform: uppercase;
 }
@@ -52,4 +53,18 @@ body {
   height: 130px;
   margin: 0 auto;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 568px) {
+  .text-big {
+    font-size: 44px;
+  }
+
+  .text-md {
+    font-size: 16px;
+  }
+
+  .text-small {
+    font-size: 13px;
+  }
 }
