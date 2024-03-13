@@ -6,6 +6,11 @@ import Icon2 from "./images/Icon2";
 import Icon3 from "./images/Icon3";
 import Icon4 from "./images/Icon4";
 
+import Icon1Small from "./images/Icon1Small";
+import Icon2Small from "./images/Icon2Small";
+import Icon3Small from "./images/Icon3Small";
+import Icon4Small from "./images/Icon4Small";
+
 function App() {
   return (
     <div className="flex flex-col items-stretch min-h-screen">
@@ -76,22 +81,22 @@ function App() {
         </div>
         <div className="lg:hidden text-small flex flex-col gap-5 pt-10">
           <div className="icon-content flex flex-col text-center pt-5 gap-2">
-            <div className="icon bg-black/50">
-              <Icon1 />
+            <div className="icon bg-white">
+              <Icon1Small />
             </div>
             <div>
               Explore all EV makes and models. Compare them side-by side.{" "}
             </div>
           </div>
           <div className="icon-content flex flex-col text-center pt-5 gap-2">
-            <div className="icon bg-black/50">
-              <Icon2 />
+            <div className="icon bg-white">
+              <Icon2Small />
             </div>
             <div>Calculate your range and build your charge plan.</div>
           </div>
           <div className="icon-content flex flex-col text-center pt-5 gap-2">
-            <div className="icon bg-black/50">
-              <Icon3 />
+            <div className="icon bg-white">
+              <Icon3Small />
             </div>
             <div>
               Find the best deal with exclusive offers from Revo’s dealer
@@ -99,8 +104,8 @@ function App() {
             </div>
           </div>
           <div className="icon-content flex flex-col text-center pt-5 gap-2">
-            <div className="icon bg-black/50">
-              <Icon4 />
+            <div className="icon bg-white">
+              <Icon4Small />
             </div>
             <div>
               Find the best deal with exclusive offers from Revo’s dealer

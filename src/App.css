@@ -48,7 +48,6 @@ body {
 }
 
 .icon {
-  padding-bottom: 30px;
   padding: 30px 35px;
   height: 130px;
   margin: 0 auto;
@@ -69,5 +68,13 @@ body {
 
   .text-small {
     font-size: 16px;
+  }
+
+  .icon {
+    padding: 30px;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
   }
 }
