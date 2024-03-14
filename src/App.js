@@ -61,7 +61,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-lgray text-white flex flex-col content-center place-items-center p-20">
+      <div className="bg-lgray text-white flex flex-col content-center place-items-center p-20 text-center">
         <div className="text-md pb-5">We’re along for the ride with you.</div>
         <div className="text-md">Sign up for early access today:</div>
         <div className="pt-10">
