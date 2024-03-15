@@ -5,46 +5,53 @@
 html,
 body {
   font-family: "Gotham" !important;
+  color: var(--neutrals-100-f-9-faf-3, #f9faf3);
+}
+
+.top-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./images/bg.png");
+  min-height: 500px;
 }
 
 .top-wrap {
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
-    url("./images/bg.jpeg");
+  background-image: linear-gradient(to bottom, black, gray);
 }
 
 .text-big {
-  color: var(--neutrals-100-f-9-faf-3, #f9faf3);
-  /* Headline/H2 - 64 Steinbeck */
   font-size: 64px;
   font-style: normal;
   font-weight: 300;
   line-height: 110%; /* 70.4px */
-  text-transform: uppercase;
 }
 
 .text-md {
-  color: var(--neutrals-100-f-9-faf-3, #f9faf3);
-  /* Subhead/S1 Reg - 24 DM Sans */
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 120%; /* 28.8px */
-  text-transform: uppercase;
 }
 
 .text-small {
-  color: var(--neutrals-100-f-9-faf-3, #f9faf3);
-  /* Paragraph/P1 Med - 18 DM Sans */
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 130%; /* 23.4px */
 }
 
 .icon-content {
   max-width: 240px;
+}
+
+.divider {
+  border-bottom: 1px solid gray;
+  width: 100%;
 }
 
 .icon {
