@@ -13,29 +13,27 @@ body {
   background-size: cover;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 1)
     ),
     url("./images/bg.png");
+  /* background-image: url("./images/bg.png"); */
   min-height: 500px;
 }
 
 .top-wrap {
-  background-image: linear-gradient(to bottom, black, gray);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(28, 20, 32),
+    rgb(101, 97, 103)
+  );
 }
 
 .text-big {
-  font-size: 64px;
+  font-size: 80px;
   font-style: normal;
   font-weight: 300;
   line-height: 110%; /* 70.4px */
-}
-
-.text-md {
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 120%; /* 28.8px */
 }
 
 .text-small {
@@ -50,16 +48,14 @@ body {
 }
 
 .divider {
-  border-bottom: 1px solid gray;
-  width: 100%;
+  border-bottom: 1px solid rgb(249, 250, 243);
+  width: 90%;
 }
 
 .icon {
-  padding: 30px 35px;
-  height: 130px;
   margin: 0 auto;
   margin-bottom: 24px;
-  border-radius: 50%;
+  background: transparent;
 }
 
 @media screen and (max-width: 568px) {
@@ -79,10 +75,6 @@ body {
   }
 
   .icon {
-    padding: 30px;
-    height: 100px;
-    width: 100px;
     margin: auto;
-    border-radius: 50%;
   }
 }
