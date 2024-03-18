@@ -12,11 +12,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.8)
+      269.79deg,
+      #1a1a1a 0.15%,
+      rgba(0, 0, 0, 0) 99.79%
     ),
-    url("./images/bg.png");
+    url("./images/bg2.jpeg");
   min-height: 700px;
 }
 
@@ -31,7 +31,7 @@ body {
 .text-big {
   font-size: 80px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 110%; /* 70.4px */
 }
 

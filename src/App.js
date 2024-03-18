@@ -55,7 +55,7 @@ function App() {
           height: 0,
           zIndex: 1,
           margin: "auto auto",
-          top: 30,
+          top: 20,
         }}
       >
         <RevoLogoSmall />
@@ -98,8 +98,8 @@ function App() {
           <div className="divider" />
         </div>
         <div className="text-white flex flex-col content-center place-items-center p-20 text-center">
-          <div className="text-big">
-            Sign up for early <br /> access today
+          <div className="text-big" style={{ maxWidth: 900 }}>
+            Sign up for early access today
           </div>
           <div className="p-10" style={{ display: sent ? "block" : "none" }}>
             Thanks!
