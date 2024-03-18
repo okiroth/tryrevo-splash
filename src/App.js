@@ -11,6 +11,9 @@ import Icon2Small from "./images/Icon2Small";
 import Icon3Small from "./images/Icon3Small";
 import Icon4Small from "./images/Icon4Small";
 import { useState } from "react";
+import CarLine from "./images/CarLine";
+import CarLineSmall from "./images/CarLineSmall";
+import RevoLogoSmall from "./images/RevoLogoSmall";
 
 function App() {
   const [sent, setSent] = useState(false);
@@ -46,14 +49,33 @@ function App() {
 
   return (
     <div className="flex flex-col items-stretch min-h-screen">
-      <div className="p-2 text-big top-img flex flex-col justify-center items-center text-center">
-        <div>Find your next electric vehicle</div>
+      <div
+        style={{
+          position: "relative",
+          height: 0,
+          zIndex: 1,
+          margin: "auto auto",
+          top: 30,
+        }}
+      >
+        <RevoLogoSmall />
+      </div>
+      <div className="text-big top-img flex flex-col justify-center text-center">
         <div>
-          with <strong>rEVo</strong>
+          <div>Find your next electric vehicle</div>
+          <div>
+            with <strong>rEVo</strong>
+          </div>
         </div>
       </div>
-      <div className="grow top-wrap">
+      <div className="grow top-wrap pt-10">
         <div className="md:container md:mx-auto flex flex-col content-center place-items-center lg:gap-20 gap-5 lg:pt-20 pt-5 text-center">
+          <div
+            className="lg:block hidden"
+            style={{ position: "relative", top: -60, height: 0 }}
+          >
+            <CarLine />
+          </div>
           <div className="text-big p-2">
             We're along for <br /> the ride with you.
           </div>

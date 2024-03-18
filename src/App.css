@@ -13,12 +13,11 @@ body {
   background-size: cover;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 1)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.8)
     ),
     url("./images/bg.png");
-  /* background-image: url("./images/bg.png"); */
-  min-height: 500px;
+  min-height: 700px;
 }
 
 .top-wrap {
@@ -32,7 +31,7 @@ body {
 .text-big {
   font-size: 80px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 110%; /* 70.4px */
 }
 
@@ -49,7 +48,7 @@ body {
 
 .divider {
   border-bottom: 1px solid rgb(249, 250, 243);
-  width: 90%;
+  width: 80%;
 }
 
 .icon {
@@ -59,15 +58,14 @@ body {
 }
 
 @media screen and (max-width: 568px) {
+  .top-img {
+    min-height: 300px;
+  }
   .top-wrap {
     background-size: cover;
   }
   .text-big {
-    font-size: 44px;
-  }
-
-  .text-md {
-    font-size: 16px;
+    font-size: 40px;
   }
 
   .text-small {
