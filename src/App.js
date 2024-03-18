@@ -77,7 +77,7 @@ function App() {
             <CarLine />
           </div>
           <div className="text-big p-2">
-            We're along for <br /> the ride with you.
+            We're along for <br /> the ride with you
           </div>
           <div className="lg:flex text-small">
             {Icons.map((icon) => (
