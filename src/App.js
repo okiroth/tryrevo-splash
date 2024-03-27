@@ -62,7 +62,7 @@ function App() {
       </div>
       <div className="text-big top-img flex flex-col justify-center text-center">
         <div>
-          <div>Find your perfect electric vehicle</div>
+          <div>Find the perfect EV</div>
           <div>
             with <strong>rEVo</strong>
           </div>
